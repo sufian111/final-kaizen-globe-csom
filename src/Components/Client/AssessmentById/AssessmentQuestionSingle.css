@@ -1,0 +1,103 @@
+label {
+  display: flex;
+  cursor: pointer;
+  font-weight: 500;
+  color: rgb(246, 246, 246);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0.375em;
+}
+
+label input {
+  position: absolute;
+  left: -9999px;
+}
+label input:checked + span {
+  background-color: #d6d6e5;
+  color: black;
+}
+label input:checked + span:before {
+  box-shadow: inset 0 0 0 0.4375em #00005c;
+}
+label span {
+  display: flex;
+  align-items: center;
+  padding: 0.375em 0.75em 0.375em 0.375em;
+  border-radius: 99em;
+  transition: 0.25s ease;
+}
+label span:hover {
+  background-color: #d6d6e5;
+  color: black;
+}
+label span:before {
+  display: flex;
+  flex-shrink: 0;
+  content: "";
+  background-color: #fff;
+
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  margin-right: 0.375em;
+  transition: 0.25s ease;
+  box-shadow: inset 0 0 0 0.125em #00005c;
+}
+
+.questionCard {
+  color: white;
+  border-radius: 10px;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.questionRow {
+  border: 1px solid black;
+
+  color: rgb(0, 0, 0);
+}
+
+.headerDiv {
+  border: 1px solid black;
+
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.taskBar {
+  background-color: maroon;
+  color: white;
+}
+
+.numberBorder {
+  border-right: 1px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+  label input:checked + span {
+    background-color: #d6d6e5;
+    color: #d6d6e5;
+  }
+}

@@ -1,0 +1,8 @@
+.btn-dim {
+  background-color: #fadbd8 !important ;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}

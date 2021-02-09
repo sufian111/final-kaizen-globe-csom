@@ -1,0 +1,10 @@
+.label {
+  color: black !important;
+}
+.addMoreButton {
+  border: none;
+  background-color: #800000;
+  color: white !important;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

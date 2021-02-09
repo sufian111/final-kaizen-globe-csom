@@ -1,0 +1,8 @@
+.nameBox {
+  background-color: #800000;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}

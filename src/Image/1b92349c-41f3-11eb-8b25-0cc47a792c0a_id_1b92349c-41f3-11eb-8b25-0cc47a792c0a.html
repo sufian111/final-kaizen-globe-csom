@@ -1,0 +1,646 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:"Calibri",serif;font-size:32.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:"Calibri",serif;font-size:32.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_003{font-family:"Calibri",serif;font-size:20.0px;color:rgb(164,0,32);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_003{font-family:"Calibri",serif;font-size:20.0px;color:rgb(164,0,32);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_004{font-family:"Calibri",serif;font-size:24.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:"Calibri",serif;font-size:24.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:"Calibri",serif;font-size:18.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:"Calibri",serif;font-size:18.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_006{font-family:"Calibri Italic",serif;font-size:14.0px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_006{font-family:"Calibri Italic",serif;font-size:14.0px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_007{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(164,0,32);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_007{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(164,0,32);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_008{font-family:"Calibri",serif;font-size:9.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_008{font-family:"Calibri",serif;font-size:9.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_009{font-family:"Calibri Bold",serif;font-size:16.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_009{font-family:"Calibri Bold",serif;font-size:16.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_011{font-family:"Calibri",serif;font-size:16.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_011{font-family:"Calibri",serif;font-size:16.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_012{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_012{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_013{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_062{font-family:"Calibri Bold",serif;font-size:16.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_062{font-family:"Calibri Bold",serif;font-size:16.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_015{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_015{font-family:"Calibri Italic",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_016{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_016{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_018{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_018{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_019{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_010{font-family:"Calibri Bold",serif;font-size:16.2px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_010{font-family:"Calibri Bold",serif;font-size:16.2px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_020{font-family:"Calibri",serif;font-size:16.1px;color:rgb(0,111,192);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_020{font-family:"Calibri",serif;font-size:16.1px;color:rgb(0,111,192);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_021{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,111,192);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_021{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,111,192);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_022{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,111,192);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_022{font-family:"Calibri",serif;font-size:12.1px;color:rgb(0,111,192);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_023{font-family:"Calibri",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_023{font-family:"Calibri",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_024{font-family:"Calibri Bold",serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_024{font-family:"Calibri Bold",serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_025{font-family:"Calibri Bold",serif;font-size:12.9px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_025{font-family:"Calibri Bold",serif;font-size:12.9px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_026{font-family:"Calibri",serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_026{font-family:"Calibri",serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_028{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(0,175,239);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_028{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(0,175,239);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_032{font-family:"Calibri",serif;font-size:10.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_032{font-family:"Calibri",serif;font-size:10.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_031{font-family:"Calibri",serif;font-size:13.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_031{font-family:"Calibri",serif;font-size:13.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_033{font-family:"Calibri",serif;font-size:13.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_033{font-family:"Calibri",serif;font-size:13.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_036{font-family:"Calibri",serif;font-size:11.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_036{font-family:"Calibri",serif;font-size:11.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_034{font-family:"Calibri",serif;font-size:9.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_034{font-family:"Calibri",serif;font-size:9.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_035{font-family:"Calibri",serif;font-size:11.3px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_035{font-family:"Calibri",serif;font-size:11.3px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_037{font-family:"Calibri",serif;font-size:10.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_037{font-family:"Calibri",serif;font-size:10.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_014{font-family:"Calibri",serif;font-size:16.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_014{font-family:"Calibri",serif;font-size:16.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_039{font-family:"Calibri",serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_039{font-family:"Calibri",serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_038{font-family:"Calibri",serif;font-size:8.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_038{font-family:"Calibri",serif;font-size:8.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_040{font-family:"Calibri",serif;font-size:10.6px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_040{font-family:"Calibri",serif;font-size:10.6px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_041{font-family:"Calibri",serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_041{font-family:"Calibri",serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_042{font-family:"Calibri",serif;font-size:8.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_042{font-family:"Calibri",serif;font-size:8.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_043{font-family:"Calibri",serif;font-size:10.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_043{font-family:"Calibri",serif;font-size:10.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_044{font-family:"Calibri",serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_044{font-family:"Calibri",serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_046{font-family:"Calibri",serif;font-size:11.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_046{font-family:"Calibri",serif;font-size:11.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_045{font-family:"Calibri",serif;font-size:9.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_045{font-family:"Calibri",serif;font-size:9.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_047{font-family:"Calibri",serif;font-size:11.2px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_047{font-family:"Calibri",serif;font-size:11.2px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_049{font-family:"Calibri",serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_049{font-family:"Calibri",serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_048{font-family:"Calibri",serif;font-size:8.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_048{font-family:"Calibri",serif;font-size:8.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_050{font-family:"Calibri",serif;font-size:10.6px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_050{font-family:"Calibri",serif;font-size:10.6px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_051{font-family:"Calibri",serif;font-size:14.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_051{font-family:"Calibri",serif;font-size:14.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_053{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(164,0,32);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_053{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(164,0,32);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_052{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(0,31,95);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_052{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(0,31,95);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_054{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(164,0,32);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_054{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(164,0,32);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_055{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(0,31,95);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_055{font-family:"Calibri Bold",serif;font-size:12.1px;color:rgb(0,31,95);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_056{font-family:"Calibri",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_056{font-family:"Calibri",serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_057{font-family:"Calibri Italic",serif;font-size:24.1px;color:rgb(0,175,80);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_057{font-family:"Calibri Italic",serif;font-size:24.1px;color:rgb(0,175,80);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_059{font-family:"Calibri Italic",serif;font-size:20.0px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_059{font-family:"Calibri Italic",serif;font-size:20.0px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_060{font-family:"Calibri Italic",serif;font-size:20.0px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_060{font-family:"Calibri Italic",serif;font-size:20.0px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-299px;top:0px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background01.jpg" width=598 height=841></div>
+<div style="position:absolute;left:70.51px;top:112.70px" class="cls_002"><span class="cls_002">EMPATHY ASSESSMENT REPORT</span></div>
+<div style="position:absolute;left:257.21px;top:281.16px" class="cls_003"><span class="cls_003">EMP THY INDEX ™</span></div>
+<div style="position:absolute;left:121.37px;top:519.21px" class="cls_004"><span class="cls_004">Rupinder Kaur</span></div>
+<div style="position:absolute;left:65.81px;top:600.40px" class="cls_005"><span class="cls_005">Empathy is the ultimate form of customer insight</span></div>
+<div style="position:absolute;left:182.59px;top:632.54px" class="cls_006"><span class="cls_006">- Don Peppers -</span></div>
+<div style="position:absolute;left:234.79px;top:765.81px" class="cls_007"><span class="cls_007">Conceptualized &  Designed by Centre of Strategic Mindset</span></div>
+<div style="position:absolute;left:17.71px;top:820.29px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-299px;top:851px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background02.jpg" width=598 height=841></div>
+<div style="position:absolute;left:51.91px;top:96.95px" class="cls_009"><span class="cls_009">CONTENTS</span></div>
+<div style="position:absolute;left:505.94px;top:129.12px" class="cls_011"><span class="cls_011">Page</span></div>
+<div style="position:absolute;left:51.91px;top:161.06px" class="cls_012"><span class="cls_012">1.  Introduction - What is Empathy?</span></div>
+<div style="position:absolute;left:520.10px;top:161.06px" class="cls_012"><span class="cls_012">3</span></div>
+<div style="position:absolute;left:51.91px;top:187.70px" class="cls_012"><span class="cls_012">2.  Empathy Construct</span></div>
+<div style="position:absolute;left:520.10px;top:187.70px" class="cls_012"><span class="cls_012">3</span></div>
+<div style="position:absolute;left:51.91px;top:214.10px" class="cls_013"><span class="cls_013">3.  Background Research</span></div>
+<div style="position:absolute;left:520.10px;top:214.10px" class="cls_013"><span class="cls_013">4</span></div>
+<div style="position:absolute;left:51.91px;top:240.76px" class="cls_012"><span class="cls_012">4.  Key Research Questions</span></div>
+<div style="position:absolute;left:520.10px;top:240.76px" class="cls_012"><span class="cls_012">4</span></div>
+<div style="position:absolute;left:51.91px;top:267.40px" class="cls_012"><span class="cls_012">5.  Empathy - An Instrument for Epiphany</span></div>
+<div style="position:absolute;left:520.10px;top:267.40px" class="cls_012"><span class="cls_012">4</span></div>
+<div style="position:absolute;left:51.91px;top:293.80px" class="cls_012"><span class="cls_012">6.  Empathy Index - Fundamental Dimensions</span></div>
+<div style="position:absolute;left:520.10px;top:293.80px" class="cls_012"><span class="cls_012">5</span></div>
+<div style="position:absolute;left:51.91px;top:320.46px" class="cls_012"><span class="cls_012">7.  Using the Report</span></div>
+<div style="position:absolute;left:520.10px;top:320.46px" class="cls_012"><span class="cls_012">6</span></div>
+<div style="position:absolute;left:51.91px;top:347.10px" class="cls_012"><span class="cls_012">8.  Empathy index - Interpretation of Scores</span></div>
+<div style="position:absolute;left:520.10px;top:347.10px" class="cls_012"><span class="cls_012">7</span></div>
+<div style="position:absolute;left:51.91px;top:373.50px" class="cls_012"><span class="cls_012">9.  Dimension Wise Findings and Deductions</span></div>
+<div style="position:absolute;left:500.66px;top:373.50px" class="cls_012"><span class="cls_012">8  - 13</span></div>
+<div style="position:absolute;left:51.91px;top:400.17px" class="cls_012"><span class="cls_012">10. Developmental Guidelines</span></div>
+<div style="position:absolute;left:497.78px;top:400.17px" class="cls_012"><span class="cls_012">14 - 15</span></div>
+<div style="position:absolute;left:17.71px;top:820.29px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-299px;top:1702px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background03.jpg" width=598 height=841></div>
+<div style="position:absolute;left:48.70px;top:62.32px" class="cls_009"><span class="cls_009">Introduction - What is Empathy</span><span class="cls_062">?</span></div>
+<div style="position:absolute;left:48.70px;top:94.24px" class="cls_012"><span class="cls_012">The definition of empathy varies. Merriam-Webster dictionary defines,Empathy as ‘the action of</span></div>
+<div style="position:absolute;left:48.70px;top:110.80px" class="cls_013"><span class="cls_013">understanding, being aware of; being sensitive to, and vicariously experiencing others’ feelings,</span></div>
+<div style="position:absolute;left:48.70px;top:127.38px" class="cls_012"><span class="cls_012">thoughts and emotions, whether emanating from their past or present experiences’. To make it more</span></div>
+<div style="position:absolute;left:48.70px;top:143.94px" class="cls_012"><span class="cls_012">concise, empathy implies an accurate understanding of someone else’s perspectives and experiences.</span></div>
+<div style="position:absolute;left:48.70px;top:160.50px" class="cls_012"><span class="cls_012">To be empathic would not only mean seeing others’ perspectives (both intellectual and emotional)</span></div>
+<div style="position:absolute;left:48.70px;top:177.06px" class="cls_012"><span class="cls_012">but also gaining an insight into the legitimacy of that perspective.</span></div>
+<div style="position:absolute;left:51.34px;top:203.73px" class="cls_015"><span class="cls_015">“It is important to note that, in most cases, an intellectual understanding is insufficient - to be</span></div>
+<div style="position:absolute;left:48.70px;top:220.29px" class="cls_015"><span class="cls_015">empathic one must understand the emotional experience of that individual”.</span></div>
+<div style="position:absolute;left:48.70px;top:246.93px" class="cls_016"><span class="cls_016">Empathy is not a soft nurturing value, but a hard commercial tool that every business needs as part</span></div>
+<div style="position:absolute;left:48.70px;top:263.49px" class="cls_016"><span class="cls_016">of their DNA to stay relevant as well as significant.</span></div>
+<div style="position:absolute;left:48.70px;top:289.91px" class="cls_012"><span class="cls_012">In Harvard Business Review (Parmar, 2015b), it is also stated that there is an obvious correlation</span></div>
+<div style="position:absolute;left:48.70px;top:306.47px" class="cls_012"><span class="cls_012">between  empathy  and  commercial  success.  Besides,  businesses  are  far  more  profitable  and</span></div>
+<div style="position:absolute;left:48.70px;top:323.03px" class="cls_012"><span class="cls_012">productive when they act ethically, and treat their staff with respect, and communicate better with</span></div>
+<div style="position:absolute;left:48.70px;top:339.59px" class="cls_012"><span class="cls_012">the customers. The fact that supports this statement is that the top 10 companies in the Global</span></div>
+<div style="position:absolute;left:48.70px;top:356.15px" class="cls_012"><span class="cls_012">Empathy Index 2015, increased in value more than twice as much as the bottom 10, and generated</span></div>
+<div style="position:absolute;left:48.70px;top:372.74px" class="cls_012"><span class="cls_012">50% more earnings. The average earnings of the top 10 companies went up by 6% in 2015, while the</span></div>
+<div style="position:absolute;left:48.70px;top:389.30px" class="cls_012"><span class="cls_012">average earnings of the bottom 10 companies, further dropped 9% (Dishman, 2015).</span></div>
+<div style="position:absolute;left:48.70px;top:415.94px" class="cls_012"><span class="cls_012">The past decade has seen a growing movement towards a view that postulates empathy as a</span></div>
+<div style="position:absolute;left:48.70px;top:432.50px" class="cls_012"><span class="cls_012">multidimensional construct. Therefore, it is worthwhile for us to understand the construct and apply it</span></div>
+<div style="position:absolute;left:48.70px;top:449.06px" class="cls_013"><span class="cls_013">in our lives.</span></div>
+<div style="position:absolute;left:48.70px;top:481.43px" class="cls_009"><span class="cls_009">Empathy Construct</span></div>
+<div style="position:absolute;left:48.70px;top:515.51px" class="cls_012"><span class="cls_012">We talk about empathy, most commonly as a single attribute.</span></div>
+<div style="position:absolute;left:48.70px;top:529.92px" class="cls_013"><span class="cls_013">But a closer and deeper look at empathy reveals three guiding</span></div>
+<div style="position:absolute;left:48.70px;top:544.34px" class="cls_012"><span class="cls_012">components  and  their  inter-  relationship,  that  influences</span></div>
+<div style="position:absolute;left:48.70px;top:558.74px" class="cls_012"><span class="cls_012">human behaviours in a variety of situations. Each is important</span></div>
+<div style="position:absolute;left:48.70px;top:573.14px" class="cls_012"><span class="cls_012">in its own way and their interoperability manifests in a variety</span></div>
+<div style="position:absolute;left:48.70px;top:587.54px" class="cls_012"><span class="cls_012">of ways. The three components are as below :-</span></div>
+<div style="position:absolute;left:48.70px;top:616.34px" class="cls_017"><span class="cls_017">•</span><span class="cls_018"> Cognitive Empathy - </span><span class="cls_013">the ability to understand another</span></div>
+<div style="position:absolute;left:62.14px;top:630.76px" class="cls_012"><span class="cls_012">person’s perspective;</span></div>
+<div style="position:absolute;left:48.70px;top:659.56px" class="cls_019"><span class="cls_019">•</span><span class="cls_016"> Emotional Empathy - </span><span class="cls_012">the ability to feel what someone else</span></div>
+<div style="position:absolute;left:62.14px;top:673.96px" class="cls_012"><span class="cls_012">feels;</span></div>
+<div style="position:absolute;left:48.70px;top:702.78px" class="cls_019"><span class="cls_019">•</span><span class="cls_016"> Affective Empathy - </span><span class="cls_012">the ability to sense what another</span></div>
+<div style="position:absolute;left:62.14px;top:717.18px" class="cls_012"><span class="cls_012">person needs from you</span></div>
+<div style="position:absolute;left:17.71px;top:820.29px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-299px;top:2553px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background04.jpg" width=598 height=841></div>
+<div style="position:absolute;left:48.70px;top:46.65px" class="cls_010"><span class="cls_010">Background  Research</span></div>
+<div style="position:absolute;left:48.70px;top:85.55px" class="cls_012"><span class="cls_012">Our tryst with empathy is two decades old. In our research on empathy, we have closely observed</span></div>
+<div style="position:absolute;left:48.70px;top:99.95px" class="cls_012"><span class="cls_012">more than 5000 people  and interviewed 500 plus leaders across industries and levels to arrive at 10</span></div>
+<div style="position:absolute;left:48.70px;top:114.35px" class="cls_012"><span class="cls_012">critical insights as under:-</span></div>
+<div style="position:absolute;left:48.70px;top:143.18px" class="cls_012"><span class="cls_012">1.  Empathy is learnable through reflections and structured discipline.</span></div>
+<div style="position:absolute;left:48.70px;top:157.58px" class="cls_012"><span class="cls_012">2.  There are stages that can be acquired, honed and mastered.</span></div>
+<div style="position:absolute;left:48.70px;top:171.98px" class="cls_012"><span class="cls_012">3.  Each preceding stage is a precursor to understanding and learning the next stage.</span></div>
+<div style="position:absolute;left:48.70px;top:186.38px" class="cls_012"><span class="cls_012">4.  In nutshell, it is a simple process of activating ‘Stop-Start-Continue’ discipline when it comes to</span></div>
+<div style="position:absolute;left:66.70px;top:200.78px" class="cls_012"><span class="cls_012">understanding and manifesting empathetic behaviours.</span></div>
+<div style="position:absolute;left:48.70px;top:215.18px" class="cls_013"><span class="cls_013">5.  Empathy is rooted in observation as well as non-judgement, almost simultaneously.</span></div>
+<div style="position:absolute;left:48.70px;top:229.60px" class="cls_012"><span class="cls_012">6.  Empathy is about striking a balance between the inner world as well as the external or someone</span></div>
+<div style="position:absolute;left:66.70px;top:244.00px" class="cls_012"><span class="cls_012">else’s world, through a series of interactions between stimuli and responses.</span></div>
+<div style="position:absolute;left:48.70px;top:258.40px" class="cls_012"><span class="cls_012">7.  Empathy is a muscle that develops with deliberate and disciplined exercises.</span></div>
+<div style="position:absolute;left:48.70px;top:272.80px" class="cls_012"><span class="cls_012">8.  Empathy is not mere sympathy; it is rooted in concrete actions triggered by a</span></div>
+<div style="position:absolute;left:497.21px;top:272.80px" class="cls_012"><span class="cls_012">‘moving</span></div>
+<div style="position:absolute;left:66.70px;top:287.20px" class="cls_012"><span class="cls_012">experience.</span></div>
+<div style="position:absolute;left:48.70px;top:301.62px" class="cls_012"><span class="cls_012">9.  Empathy is critical to innovation, relevance and significance.</span></div>
+<div style="position:absolute;left:48.70px;top:316.02px" class="cls_012"><span class="cls_012">10. Empathy is severely under assault due to modern day distractions, temptations and an excessive</span></div>
+<div style="position:absolute;left:66.70px;top:330.42px" class="cls_012"><span class="cls_012">focus on ‘I - me - my’ syndrome.</span></div>
+<div style="position:absolute;left:48.70px;top:355.60px" class="cls_020"><span class="cls_020">Key Questions that Influenced COSM’s Research on Empathy</span></div>
+<div style="position:absolute;left:48.70px;top:389.68px" class="cls_021"><span class="cls_021">1.  What is true empathy?</span></div>
+<div style="position:absolute;left:48.70px;top:404.08px" class="cls_021"><span class="cls_021">2.  How does it differentiate itself from sympathy?</span></div>
+<div style="position:absolute;left:48.70px;top:418.48px" class="cls_022"><span class="cls_022">3.  What behaviours exhibit themselves on the spectrum of Apathy, Sympathy and Empathy?</span></div>
+<div style="position:absolute;left:48.70px;top:432.90px" class="cls_021"><span class="cls_021">4.  Why empathy can lead us to an ‘Epiphany’ (the moment of truth)?</span></div>
+<div style="position:absolute;left:48.70px;top:447.30px" class="cls_021"><span class="cls_021">5.  Why empathy is such a misconstrued or misunderstood phenomena?</span></div>
+<div style="position:absolute;left:48.70px;top:461.70px" class="cls_021"><span class="cls_021">6.  How come empathy is such a hard thing to develop?</span></div>
+<div style="position:absolute;left:48.70px;top:476.10px" class="cls_021"><span class="cls_021">7.  Why empathy is often considered to be a misnomer when it comes to driving hard and</span></div>
+<div style="position:absolute;left:66.70px;top:490.50px" class="cls_021"><span class="cls_021">aspirational results?</span></div>
+<div style="position:absolute;left:48.70px;top:504.93px" class="cls_021"><span class="cls_021">8.  Why do we need to practice or lead with empathy?</span></div>
+<div style="position:absolute;left:48.70px;top:519.33px" class="cls_021"><span class="cls_021">9.  How to develop empathy in a structured and conscious manner?</span></div>
+<div style="position:absolute;left:48.70px;top:533.73px" class="cls_021"><span class="cls_021">10. How to cultivate an Empathetic Mindset?</span></div>
+<div style="position:absolute;left:48.70px;top:568.96px" class="cls_009"><span class="cls_009">Empathy - An Instrument for Epiphany</span></div>
+<div style="position:absolute;left:48.70px;top:607.86px" class="cls_012"><span class="cls_012">We live in an interdependent world. Our thought process and action</span></div>
+<div style="position:absolute;left:48.70px;top:622.26px" class="cls_012"><span class="cls_012">impact others; and others’ conduct impact us, favorably or adversely</span></div>
+<div style="position:absolute;left:48.70px;top:636.66px" class="cls_012"><span class="cls_012">If there is one thing that makes this interdependence work at its pea</span></div>
+<div style="position:absolute;left:48.70px;top:651.06px" class="cls_012"><span class="cls_012">effectiveness, it is empathy. Empathy is core to ‘</span><span class="cls_016">Problem Discovery</span></div>
+<div style="position:absolute;left:48.70px;top:665.47px" class="cls_013"><span class="cls_013">and   is   a   critical   imperative   to   be   considered   even   befor</span></div>
+<div style="position:absolute;left:48.70px;top:679.89px" class="cls_012"><span class="cls_012">contemplating any resolution. It takes knowledge, understanding</span></div>
+<div style="position:absolute;left:48.70px;top:694.29px" class="cls_012"><span class="cls_012">personal experiences, a compassionate mindset and most importantl</span></div>
+<div style="position:absolute;left:48.70px;top:708.69px" class="cls_012"><span class="cls_012">a rigorous discipline to be empathetic.</span></div>
+<div style="position:absolute;left:48.70px;top:731.87px" class="cls_012"><span class="cls_012">How do we balance our personal needs with others’ requirements; forms the basis of </span><span class="cls_016">EMPATHY</span></div>
+<div style="position:absolute;left:48.70px;top:746.27px" class="cls_016"><span class="cls_016">EQUATION</span><span class="cls_012"> between two stakeholders or among multiple ones. And it is never a perfect or a stationary</span></div>
+<div style="position:absolute;left:48.70px;top:760.67px" class="cls_012"><span class="cls_012">balance. It is an oscillating or shifting balance. As long as we are able to appreciate this reality, and are</span></div>
+<div style="position:absolute;left:48.70px;top:775.07px" class="cls_012"><span class="cls_012">willing to make adjustments, we can succeed in keeping this balance intact, and the empathy equation</span></div>
+<div style="position:absolute;left:48.70px;top:789.47px" class="cls_012"><span class="cls_012">in a desirable equilibrium.</span></div>
+<div style="position:absolute;left:17.71px;top:820.29px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-299px;top:3404px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background05.jpg" width=598 height=841></div>
+<div style="position:absolute;left:48.70px;top:58.86px" class="cls_009"><span class="cls_009">Empathy Index - Fundamental Dimensions</span></div>
+<div style="position:absolute;left:48.70px;top:92.97px" class="cls_012"><span class="cls_012">Empathy Index is based on five fundamental dimensions. Each of these dimensions displays a</span></div>
+<div style="position:absolute;left:48.70px;top:107.37px" class="cls_012"><span class="cls_012">distinctive  and  predictable  pattern  of  relationships  with  definitive  measures  that  provide  a</span></div>
+<div style="position:absolute;left:48.70px;top:121.77px" class="cls_012"><span class="cls_012">considerable evidence for a multidimensional approach to empathy.</span></div>
+<div style="position:absolute;left:117.89px;top:154.77px" class="cls_023"><span class="cls_023">RELATABILITY</span></div>
+<div style="position:absolute;left:102.34px;top:175.77px" class="cls_013"><span class="cls_013">Ability to relate to the emotions that people around us carry, and their state of mind,</span></div>
+<div style="position:absolute;left:102.34px;top:190.19px" class="cls_012"><span class="cls_012">which drives their actions and behaviours. People are a product of their experiences that</span></div>
+<div style="position:absolute;left:102.34px;top:204.59px" class="cls_012"><span class="cls_012">influence their beliefs, logics and frame of references. If we can pause to appreciate where</span></div>
+<div style="position:absolute;left:102.34px;top:218.99px" class="cls_012"><span class="cls_012">others are coming from, we can adjust our approach, responses and hopefully influence</span></div>
+<div style="position:absolute;left:102.34px;top:233.39px" class="cls_012"><span class="cls_012">our outcomes.</span></div>
+<div style="position:absolute;left:121.42px;top:272.61px" class="cls_023"><span class="cls_023">RESONANCE</span></div>
+<div style="position:absolute;left:99.94px;top:295.12px" class="cls_012"><span class="cls_012">Ability to feel something deeply and resonate with others' emotions and feelings, without</span></div>
+<div style="position:absolute;left:99.94px;top:309.52px" class="cls_012"><span class="cls_012">judgement. The basic approach here is 'Appreciate First</span></div>
+<div style="position:absolute;left:404.16px;top:309.52px" class="cls_012"><span class="cls_012">- Critique Later'. The core</span></div>
+<div style="position:absolute;left:99.94px;top:323.92px" class="cls_012"><span class="cls_012">discipline to adhere here is, to gain entry into others' world with a sense of wonderment</span></div>
+<div style="position:absolute;left:99.94px;top:338.34px" class="cls_012"><span class="cls_012">and curiosity; and not with prejudices. It is our capacity to resonate with another person in</span></div>
+<div style="position:absolute;left:99.94px;top:352.74px" class="cls_012"><span class="cls_012">a manner, which is positive, affirming and empowering so that the rapport is established.</span></div>
+<div style="position:absolute;left:121.66px;top:394.74px" class="cls_023"><span class="cls_023">REFRAMING</span></div>
+<div style="position:absolute;left:97.66px;top:419.58px" class="cls_012"><span class="cls_012">Ability to come out and reframe our understanding that existed prior to experiencing</span></div>
+<div style="position:absolute;left:97.66px;top:433.98px" class="cls_012"><span class="cls_012">others' world. The propensity here is to challenge and realign our assumptions as well as</span></div>
+<div style="position:absolute;left:97.66px;top:448.39px" class="cls_013"><span class="cls_013">belief systems, in the light of contradicting information or thought-patterns manifested by</span></div>
+<div style="position:absolute;left:97.66px;top:462.81px" class="cls_012"><span class="cls_012">others. This allows us to understand others' point of view, find opportunities to eliminate</span></div>
+<div style="position:absolute;left:97.66px;top:477.21px" class="cls_012"><span class="cls_012">our assumptions and make new frames of references. Assumptions are the least form of</span></div>
+<div style="position:absolute;left:97.66px;top:491.61px" class="cls_012"><span class="cls_012">knowledge, so reframing our understanding is critical.</span></div>
+<div style="position:absolute;left:112.27px;top:534.28px" class="cls_023"><span class="cls_023">REORIENTATION</span></div>
+<div style="position:absolute;left:96.70px;top:558.19px" class="cls_013"><span class="cls_013">Ability to adapt and calibrate our stance, position or approach with new or better</span></div>
+<div style="position:absolute;left:96.70px;top:572.61px" class="cls_012"><span class="cls_012">understanding of the stakeholders and situations, to build rapport, create alignment and</span></div>
+<div style="position:absolute;left:96.70px;top:587.01px" class="cls_012"><span class="cls_012">strike breakthroughs. This calls for agility, flexibility and capacity to reconsider or re-</span></div>
+<div style="position:absolute;left:96.70px;top:601.41px" class="cls_012"><span class="cls_012">examine your actions as well as responses, based on others' thought process. It is our</span></div>
+<div style="position:absolute;left:96.70px;top:615.81px" class="cls_012"><span class="cls_012">calibre to frame new belief systems or alter existing thoughts to navigate the relationship</span></div>
+<div style="position:absolute;left:96.70px;top:630.21px" class="cls_012"><span class="cls_012">challenges and prime ourself to respond to other person’s needs</span></div>
+<div style="position:absolute;left:110.64px;top:669.59px" class="cls_023"><span class="cls_023">REIMAGINATION</span></div>
+<div style="position:absolute;left:99.94px;top:695.49px" class="cls_013"><span class="cls_013">In the end, it is all about reimagining possibilities, visualizing prospects and neutralizing</span></div>
+<div style="position:absolute;left:99.94px;top:712.07px" class="cls_012"><span class="cls_012">constraints,   through   better   understanding,   relatability,   resonance,   reframing   and</span></div>
+<div style="position:absolute;left:99.94px;top:728.63px" class="cls_012"><span class="cls_012">reorienting our approach. This is the level of empathy that is required for mutual win-win,</span></div>
+<div style="position:absolute;left:99.94px;top:745.19px" class="cls_012"><span class="cls_012">co-creation; innovation and change. It is the prowess to skilfully design behaviours that are</span></div>
+<div style="position:absolute;left:99.94px;top:761.75px" class="cls_012"><span class="cls_012">in resonance with own value system, yet respectful of others' belief systems, thus leading</span></div>
+<div style="position:absolute;left:99.94px;top:778.31px" class="cls_013"><span class="cls_013">to affable responses.</span></div>
+<div style="position:absolute;left:17.71px;top:820.29px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-299px;top:4255px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background06.jpg" width=598 height=841></div>
+<div style="position:absolute;left:48.70px;top:58.86px" class="cls_009"><span class="cls_009">Using the Report</span></div>
+<div style="position:absolute;left:48.70px;top:94.17px" class="cls_012"><span class="cls_012">The </span><span class="cls_016">Empathy Index</span><span class="cls_012"> Report is designed to give you an insight into your </span><span class="cls_016">Empathy Quotient </span><span class="cls_012">along five</span></div>
+<div style="position:absolute;left:48.70px;top:110.73px" class="cls_012"><span class="cls_012">empathy dimensions. Each dimension was subject to self-evaluation on eight survey items that</span></div>
+<div style="position:absolute;left:48.70px;top:127.29px" class="cls_012"><span class="cls_012">capture the most conspicuous behaviours. Your responses have been indexed on a five point</span></div>
+<div style="position:absolute;left:48.70px;top:143.85px" class="cls_012"><span class="cls_012">‘Frequency Scale’  as under:-</span></div>
+<div style="position:absolute;left:48.70px;top:169.07px" class="cls_012"><span class="cls_012">1.  Never</span></div>
+<div style="position:absolute;left:48.70px;top:183.47px" class="cls_012"><span class="cls_012">2.  Rarely</span></div>
+<div style="position:absolute;left:48.70px;top:197.87px" class="cls_012"><span class="cls_012">3.  Seldom</span></div>
+<div style="position:absolute;left:48.70px;top:212.27px" class="cls_012"><span class="cls_012">4.  Often</span></div>
+<div style="position:absolute;left:48.70px;top:226.67px" class="cls_012"><span class="cls_012">5.  Always</span></div>
+<div style="position:absolute;left:48.70px;top:256.70px" class="cls_012"><span class="cls_012">The purpose of the scale is not to test your awareness; whether you know or do not know a</span></div>
+<div style="position:absolute;left:48.70px;top:273.26px" class="cls_012"><span class="cls_012">particular dimension, but to give you a chance to self-evaluate the frequency with which you bring</span></div>
+<div style="position:absolute;left:48.70px;top:289.82px" class="cls_012"><span class="cls_012">these behaviours into a conscious realm of application.</span></div>
+<div style="position:absolute;left:48.70px;top:316.46px" class="cls_012"><span class="cls_012">Below graphic exhibits a visual depiction of how well, or inadequately, you have fared on five</span></div>
+<div style="position:absolute;left:48.70px;top:333.02px" class="cls_013"><span class="cls_013">fundamental dimensions of Empathy Index. Your scores will broadly determine your ability to</span></div>
+<div style="position:absolute;left:48.70px;top:349.60px" class="cls_012"><span class="cls_012">exercise empathy and gain a critical insight into others’ world (customers and stakeholders) and the</span></div>
+<div style="position:absolute;left:48.70px;top:366.16px" class="cls_012"><span class="cls_012">barriers that you will do well to overcome, through structured reflections and translating your</span></div>
+<div style="position:absolute;left:48.70px;top:382.72px" class="cls_012"><span class="cls_012">insights into behaviours on ground.</span></div>
+<div style="position:absolute;left:48.70px;top:409.36px" class="cls_013"><span class="cls_013">Having a better understanding of our own empathetic quotient, enables us to reframe and realign</span></div>
+<div style="position:absolute;left:48.70px;top:425.94px" class="cls_012"><span class="cls_012">our thought processes to meet the empathy needs of the users.</span></div>
+<div style="position:absolute;left:48.70px;top:452.34px" class="cls_012"><span class="cls_012">Hope you enjoy your report as much as we enjoyed creating it.</span></div>
+<div style="position:absolute;left:17.71px;top:820.29px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-299px;top:5106px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background07.jpg" width=598 height=841></div>
+<div style="position:absolute;left:45.41px;top:58.77px" class="cls_024"><span class="cls_024">Overall Empathy index - Interpretation of Scores</span></div>
+<div style="position:absolute;left:225.06px;top:106.73px" class="cls_025"><span class="cls_025">OVERALL EMPATHY INDEX</span></div>
+<div style="position:absolute;left:43.94px;top:130.58px" class="cls_026"><span class="cls_026">Graphic Scale</span></div>
+<div style="position:absolute;left:43.94px;top:148.32px" class="cls_026"><span class="cls_026">Absolute Scores</span></div>
+<div style="position:absolute;left:447.04px;top:148.32px" class="cls_026"><span class="cls_026">160</span></div>
+<div style="position:absolute;left:43.94px;top:161.48px" class="cls_026"><span class="cls_026">% Score</span></div>
+<div style="position:absolute;left:445.82px;top:161.48px" class="cls_026"><span class="cls_026">80%</span></div>
+<div style="position:absolute;left:45.41px;top:220.94px" class="cls_012"><span class="cls_012">Please read following guidelines to make sense of your scores and devise your measures to enhance</span></div>
+<div style="position:absolute;left:45.41px;top:235.34px" class="cls_012"><span class="cls_012">your empathy index.</span></div>
+<div style="position:absolute;left:45.41px;top:264.14px" class="cls_016"><span class="cls_016">You have got a score of </span><span class="cls_028">147/ 200 </span><span class="cls_016">as a combined total of EMPATHIC INDEX.</span></div>
+<div style="position:absolute;left:45.41px;top:292.96px" class="cls_012"><span class="cls_012">Let us understand what this score means for</span></div>
+<div style="position:absolute;left:45.41px;top:322.00px" class="cls_028"><span class="cls_028">180-200 (90% to 100%)</span><span class="cls_016"> : Level 5 = </span><span class="cls_012">You  understand, embody, and exemplify empathy, exceptionally</span></div>
+<div style="position:absolute;left:45.41px;top:337.36px" class="cls_012"><span class="cls_012">well. You have the wherewithal to ‘role-model’ empathy in your context and be a champion. Keep up</span></div>
+<div style="position:absolute;left:45.41px;top:352.96px" class="cls_012"><span class="cls_012">the good work but be wary of the empathy fatigue and its potential overuse, by actively asking this</span></div>
+<div style="position:absolute;left:45.41px;top:368.34px" class="cls_012"><span class="cls_012">question, “Is there something getting overlooked or ignored in the garb of empathy”?</span></div>
+<div style="position:absolute;left:45.41px;top:415.14px" class="cls_028"><span class="cls_028">140-179 (70% to 89%)</span><span class="cls_016"> : Level 4 = </span><span class="cls_012">You often understand and demonstrate empathic concern at a</span></div>
+<div style="position:absolute;left:45.41px;top:430.50px" class="cls_012"><span class="cls_012">cognitive as well as emotional level but will do well to enhance your effectiveness by identifying</span></div>
+<div style="position:absolute;left:45.41px;top:445.87px" class="cls_013"><span class="cls_013">opportunities for real application.</span></div>
+<div style="position:absolute;left:45.41px;top:492.69px" class="cls_028"><span class="cls_028">100-139 (50% to 69%)</span><span class="cls_016"> : Level 3 = </span><span class="cls_012">You show selective evidence of understanding and practising empathy,</span></div>
+<div style="position:absolute;left:45.41px;top:508.29px" class="cls_012"><span class="cls_012">but your record is sporadic, and consistency is missing. Having understood the power of empathy, you</span></div>
+<div style="position:absolute;left:45.41px;top:523.65px" class="cls_012"><span class="cls_012">will do well to increase your attempts of applying empathy and creating a positive lasting residue.</span></div>
+<div style="position:absolute;left:45.41px;top:570.47px" class="cls_028"><span class="cls_028">60-99 (30% to 49%)</span><span class="cls_016"> : Level 2 = </span><span class="cls_012">There is little evidence to suggest that your tryst with empathy has</span></div>
+<div style="position:absolute;left:45.41px;top:585.83px" class="cls_012"><span class="cls_012">begun, yet. It may be a good idea to explore, if there are any contradictions in your mind as regards the</span></div>
+<div style="position:absolute;left:45.41px;top:601.19px" class="cls_012"><span class="cls_012">understanding as well as the potential of empathy, as an instrument of transformation and impact.</span></div>
+<div style="position:absolute;left:45.41px;top:648.02px" class="cls_028"><span class="cls_028">01-59 (0% to 30%)</span><span class="cls_016"> : Level 1 = </span><span class="cls_012">Your scores suggest a huge gap in understanding empathy and a missing</span></div>
+<div style="position:absolute;left:45.41px;top:663.62px" class="cls_012"><span class="cls_012">opportunity in appreciating its impact on the people that you lead or may lead in future, in a given</span></div>
+<div style="position:absolute;left:45.41px;top:678.98px" class="cls_012"><span class="cls_012">context. The sooner you begin this journey, the better you will get at the game of leading.</span></div>
+<div style="position:absolute;left:13.32px;top:819.06px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-299px;top:5957px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background08.jpg" width=598 height=841></div>
+<div style="position:absolute;left:45.24px;top:64.48px" class="cls_009"><span class="cls_009">Dimension Wise Interpretation</span></div>
+<div style="position:absolute;left:210.65px;top:118.72px" class="cls_032"><span class="cls_032">NOT</span></div>
+<div style="position:absolute;left:282.94px;top:118.72px" class="cls_032"><span class="cls_032">EARLY</span></div>
+<div style="position:absolute;left:349.79px;top:118.72px" class="cls_032"><span class="cls_032">SELECTIVE</span></div>
+<div style="position:absolute;left:435.84px;top:118.72px" class="cls_032"><span class="cls_032">WELL</span></div>
+<div style="position:absolute;left:509.37px;top:118.72px" class="cls_032"><span class="cls_032">CLEAR</span></div>
+<div style="position:absolute;left:47.73px;top:122.93px" class="cls_031"><span class="cls_031">EMPATHY DIMENSIONS</span></div>
+<div style="position:absolute;left:184.36px;top:131.70px" class="cls_032"><span class="cls_032">DEMONSTRATED</span></div>
+<div style="position:absolute;left:269.58px;top:131.70px" class="cls_032"><span class="cls_032">AWARENESS</span></div>
+<div style="position:absolute;left:343.53px;top:131.70px" class="cls_032"><span class="cls_032">APPLICATION</span></div>
+<div style="position:absolute;left:419.56px;top:131.70px" class="cls_032"><span class="cls_032">MANIFESTED</span></div>
+<div style="position:absolute;left:500.18px;top:131.70px" class="cls_032"><span class="cls_032">STRENGTH</span></div>
+<div style="position:absolute;left:46.90px;top:168.11px" class="cls_031"><span class="cls_031">RELATABILITY</span></div>
+<div style="position:absolute;left:46.90px;top:204.07px" class="cls_031"><span class="cls_031">RESONANCE</span></div>
+<div style="position:absolute;left:46.90px;top:240.07px" class="cls_031"><span class="cls_031">REFRAMING</span></div>
+<div style="position:absolute;left:46.90px;top:276.03px" class="cls_031"><span class="cls_031">REORIENTATION</span></div>
+<div style="position:absolute;left:46.90px;top:312.00px" class="cls_031"><span class="cls_031">REIMAGINATION</span></div>
+<div style="position:absolute;left:81.42px;top:391.97px" class="cls_033"><span class="cls_033">NOT</span></div>
+<div style="position:absolute;left:180.44px;top:391.97px" class="cls_033"><span class="cls_033">EARLY</span></div>
+<div style="position:absolute;left:271.97px;top:391.97px" class="cls_033"><span class="cls_033">SELECTIVE</span></div>
+<div style="position:absolute;left:389.89px;top:391.97px" class="cls_033"><span class="cls_033">WELL</span></div>
+<div style="position:absolute;left:490.58px;top:391.97px" class="cls_033"><span class="cls_033">CLEAR</span></div>
+<div style="position:absolute;left:45.37px;top:409.90px" class="cls_033"><span class="cls_033">DEMONSTRATED</span></div>
+<div style="position:absolute;left:162.10px;top:409.90px" class="cls_033"><span class="cls_033">AWARENESS</span></div>
+<div style="position:absolute;left:263.40px;top:409.90px" class="cls_033"><span class="cls_033">APPLICATION</span></div>
+<div style="position:absolute;left:367.56px;top:409.90px" class="cls_033"><span class="cls_033">MANIFESTED</span></div>
+<div style="position:absolute;left:478.01px;top:409.90px" class="cls_033"><span class="cls_033">STRENGTH</span></div>
+<div style="position:absolute;left:17.71px;top:820.29px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-299px;top:6808px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background09.jpg" width=598 height=841></div>
+<div style="position:absolute;left:42.64px;top:61.77px" class="cls_036"><span class="cls_036">1. REL  T  BILITY (  BILITY TO REL  TE) -  ppreciating where someone is coming from͙..</span></div>
+<div style="position:absolute;left:281.54px;top:76.74px" class="cls_036"><span class="cls_036">RATING</span></div>
+<div style="position:absolute;left:50.45px;top:93.40px" class="cls_034"><span class="cls_034">NOT DEMONSTRATED</span></div>
+<div style="position:absolute;left:159.88px;top:93.40px" class="cls_034"><span class="cls_034">EARLY AWARENESS</span></div>
+<div style="position:absolute;left:256.74px;top:93.40px" class="cls_034"><span class="cls_034">SELECTIVE APPLIATION</span></div>
+<div style="position:absolute;left:365.81px;top:93.40px" class="cls_034"><span class="cls_034">WELL-MANIFESTED</span></div>
+<div style="position:absolute;left:470.82px;top:93.40px" class="cls_034"><span class="cls_034">CLEAR STTRENGTH</span></div>
+<div style="position:absolute;left:84.10px;top:108.01px" class="cls_034"><span class="cls_034">(ND)</span></div>
+<div style="position:absolute;left:188.09px;top:108.01px" class="cls_034"><span class="cls_034">(EA)</span></div>
+<div style="position:absolute;left:291.75px;top:108.01px" class="cls_034"><span class="cls_034">(SA)</span></div>
+<div style="position:absolute;left:391.64px;top:108.01px" class="cls_034"><span class="cls_034">(WM)</span></div>
+<div style="position:absolute;left:498.69px;top:108.01px" class="cls_034"><span class="cls_034">(CS)</span></div>
+<div style="position:absolute;left:248.23px;top:135.21px" class="cls_035"><span class="cls_035">BEHAVIOURAL INPUTS</span></div>
+<div style="position:absolute;left:317.90px;top:149.84px" class="cls_036"><span class="cls_036">ND</span></div>
+<div style="position:absolute;left:370.58px;top:149.84px" class="cls_036"><span class="cls_036">EA</span></div>
+<div style="position:absolute;left:422.56px;top:149.84px" class="cls_036"><span class="cls_036">SA</span></div>
+<div style="position:absolute;left:470.14px;top:149.84px" class="cls_036"><span class="cls_036">WM</span></div>
+<div style="position:absolute;left:525.88px;top:149.84px" class="cls_036"><span class="cls_036">CS</span></div>
+<div style="position:absolute;left:42.30px;top:172.96px" class="cls_037"><span class="cls_037">Is alert to others' feelings at a given point of time.</span></div>
+<div style="position:absolute;left:42.30px;top:203.54px" class="cls_037"><span class="cls_037">Prepare to calm the inner chatter for active listening.</span></div>
+<div style="position:absolute;left:42.30px;top:234.13px" class="cls_037"><span class="cls_037">Intuitively, senses someone's awkwardness and hesitation.</span></div>
+<div style="position:absolute;left:42.30px;top:264.73px" class="cls_037"><span class="cls_037">Is able to anticipate as to what is coming next.</span></div>
+<div style="position:absolute;left:42.30px;top:295.35px" class="cls_037"><span class="cls_037">Picks those vibes when others have something to say or talk.</span></div>
+<div style="position:absolute;left:42.30px;top:325.93px" class="cls_037"><span class="cls_037">Capturing cues of dissonance or disapproval.</span></div>
+<div style="position:absolute;left:42.64px;top:355.85px" class="cls_036"><span class="cls_036">Can sense intrusions even without any visible response.</span></div>
+<div style="position:absolute;left:42.64px;top:378.97px" class="cls_036"><span class="cls_036">Step into others' shoes and minds to gauge their frame</span></div>
+<div style="position:absolute;left:42.64px;top:393.59px" class="cls_036"><span class="cls_036">of references.</span></div>
+<div style="position:absolute;left:47.83px;top:454.03px" class="cls_011"><span class="cls_011">Key Reflections</span></div>
+<div style="position:absolute;left:47.83px;top:573.33px" class="cls_014"><span class="cls_014">Key Actions</span></div>
+<div style="position:absolute;left:17.71px;top:820.29px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-299px;top:7659px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background10.jpg" width=598 height=841></div>
+<div style="position:absolute;left:42.52px;top:61.80px" class="cls_039"><span class="cls_039">2. RESON  NCE (  BILITY TO RESON  TE) -  Finding Common Ground͙..</span></div>
+<div style="position:absolute;left:282.60px;top:75.87px" class="cls_039"><span class="cls_039">RATING</span></div>
+<div style="position:absolute;left:49.86px;top:91.52px" class="cls_038"><span class="cls_038">NOT DEMONSTRATED</span></div>
+<div style="position:absolute;left:152.67px;top:91.52px" class="cls_038"><span class="cls_038">EARLY AWARENESS</span></div>
+<div style="position:absolute;left:259.31px;top:91.52px" class="cls_038"><span class="cls_038">SELECTIVE APPLIATION</span></div>
+<div style="position:absolute;left:378.39px;top:91.52px" class="cls_038"><span class="cls_038">WELL-MANIFESTED</span></div>
+<div style="position:absolute;left:476.08px;top:91.52px" class="cls_038"><span class="cls_038">CLEAR STTRENGTH</span></div>
+<div style="position:absolute;left:81.47px;top:105.25px" class="cls_038"><span class="cls_038">(ND)</span></div>
+<div style="position:absolute;left:179.17px;top:105.25px" class="cls_038"><span class="cls_038">(EA)</span></div>
+<div style="position:absolute;left:292.18px;top:105.25px" class="cls_038"><span class="cls_038">(SA)</span></div>
+<div style="position:absolute;left:401.68px;top:105.25px" class="cls_038"><span class="cls_038">(WM)</span></div>
+<div style="position:absolute;left:502.27px;top:105.25px" class="cls_038"><span class="cls_038">(CS)</span></div>
+<div style="position:absolute;left:251.31px;top:130.80px" class="cls_040"><span class="cls_040">BEHAVIOURAL INPUTS</span></div>
+<div style="position:absolute;left:332.40px;top:144.53px" class="cls_039"><span class="cls_039">ND</span></div>
+<div style="position:absolute;left:381.91px;top:144.53px" class="cls_039"><span class="cls_039">EA</span></div>
+<div style="position:absolute;left:430.74px;top:144.53px" class="cls_039"><span class="cls_039">SA</span></div>
+<div style="position:absolute;left:475.44px;top:144.53px" class="cls_039"><span class="cls_039">WM</span></div>
+<div style="position:absolute;left:527.82px;top:144.53px" class="cls_039"><span class="cls_039">CS</span></div>
+<div style="position:absolute;left:42.52px;top:156.68px" class="cls_039"><span class="cls_039">Can park own views to appreciate others' problems and</span></div>
+<div style="position:absolute;left:42.52px;top:170.41px" class="cls_039"><span class="cls_039">perspectives.</span></div>
+<div style="position:absolute;left:42.52px;top:190.21px" class="cls_039"><span class="cls_039">Understands what makes people upset.</span></div>
+<div style="position:absolute;left:42.52px;top:218.95px" class="cls_039"><span class="cls_039">Able to sense the elements of synergy as well as discord.</span></div>
+<div style="position:absolute;left:42.52px;top:247.70px" class="cls_039"><span class="cls_039">Can pick up cues that progress the conversation forward.</span></div>
+<div style="position:absolute;left:42.52px;top:276.14px" class="cls_039"><span class="cls_039">Easily identifies and addresses potentially conflicting issues.</span></div>
+<div style="position:absolute;left:42.52px;top:301.37px" class="cls_039"><span class="cls_039">Compassionate to people's struggles at work.</span></div>
+<div style="position:absolute;left:42.52px;top:325.64px" class="cls_039"><span class="cls_039">Appreciation comes easier than critique</span></div>
+<div style="position:absolute;left:42.52px;top:353.10px" class="cls_039"><span class="cls_039">Creates an environment for people to share, easily</span></div>
+<div style="position:absolute;left:47.83px;top:424.22px" class="cls_014"><span class="cls_014">Key Reflections</span></div>
+<div style="position:absolute;left:47.83px;top:580.70px" class="cls_011"><span class="cls_011">Key Actions</span></div>
+<div style="position:absolute;left:17.71px;top:820.29px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-299px;top:8510px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background11.jpg" width=598 height=841></div>
+<div style="position:absolute;left:42.41px;top:59.76px" class="cls_041"><span class="cls_041">3. REFR  MING (  BILITY TO REFR  ME) - Challenging Own  ssumptions & Reframe Self Understanding͙..</span></div>
+<div style="position:absolute;left:283.58px;top:73.02px" class="cls_041"><span class="cls_041">RATING</span></div>
+<div style="position:absolute;left:49.33px;top:87.78px" class="cls_042"><span class="cls_042">NOT DEMONSTRATED</span></div>
+<div style="position:absolute;left:154.70px;top:87.78px" class="cls_042"><span class="cls_042">EARLY AWARENESS</span></div>
+<div style="position:absolute;left:260.08px;top:87.78px" class="cls_042"><span class="cls_042">SELECTIVE APPLICATION</span></div>
+<div style="position:absolute;left:376.91px;top:87.78px" class="cls_042"><span class="cls_042">WELL- MANIFESTED</span></div>
+<div style="position:absolute;left:478.06px;top:87.78px" class="cls_042"><span class="cls_042">CLEAR STTRENGTH</span></div>
+<div style="position:absolute;left:79.14px;top:100.72px" class="cls_042"><span class="cls_042">(ND)</span></div>
+<div style="position:absolute;left:180.00px;top:100.72px" class="cls_042"><span class="cls_042">(EA)</span></div>
+<div style="position:absolute;left:293.20px;top:100.72px" class="cls_042"><span class="cls_042">(SA)</span></div>
+<div style="position:absolute;left:399.78px;top:100.72px" class="cls_042"><span class="cls_042">(WM)</span></div>
+<div style="position:absolute;left:502.45px;top:100.72px" class="cls_042"><span class="cls_042">(CS)</span></div>
+<div style="position:absolute;left:254.07px;top:124.81px" class="cls_043"><span class="cls_043">BEHAVIOURAL INPUTS</span></div>
+<div style="position:absolute;left:329.63px;top:137.77px" class="cls_041"><span class="cls_041">ND</span></div>
+<div style="position:absolute;left:378.11px;top:137.77px" class="cls_041"><span class="cls_041">EA</span></div>
+<div style="position:absolute;left:428.99px;top:137.77px" class="cls_041"><span class="cls_041">SA</span></div>
+<div style="position:absolute;left:477.45px;top:137.77px" class="cls_041"><span class="cls_041">WM</span></div>
+<div style="position:absolute;left:529.55px;top:137.77px" class="cls_041"><span class="cls_041">CS</span></div>
+<div style="position:absolute;left:42.11px;top:155.84px" class="cls_044"><span class="cls_044">Can easily change the initial position in the light of new insights.</span></div>
+<div style="position:absolute;left:44.20px;top:179.33px" class="cls_044"><span class="cls_044">Sees disagreements as opportunities to refine understanding.</span></div>
+<div style="position:absolute;left:42.11px;top:205.23px" class="cls_044"><span class="cls_044">Can entertain 'Why' and 'Why Not',  to broaden perspectives.</span></div>
+<div style="position:absolute;left:42.11px;top:233.23px" class="cls_044"><span class="cls_044">Considers strong opinions as an opportunity to self-reflect and explore.</span></div>
+<div style="position:absolute;left:42.11px;top:259.43px" class="cls_044"><span class="cls_044">Tries to look at both sides of the question.</span></div>
+<div style="position:absolute;left:42.11px;top:285.33px" class="cls_044"><span class="cls_044">Tries to find the best way to address an issue.</span></div>
+<div style="position:absolute;left:42.11px;top:312.75px" class="cls_044"><span class="cls_044">Can park viewpoints for the sake of deeper discovery.</span></div>
+<div style="position:absolute;left:42.11px;top:339.55px" class="cls_044"><span class="cls_044">Prefers  asking questions rather than relying on untested assumptions.</span></div>
+<div style="position:absolute;left:47.83px;top:405.18px" class="cls_014"><span class="cls_014">Key Reflections</span></div>
+<div style="position:absolute;left:47.83px;top:568.98px" class="cls_014"><span class="cls_014">Key Actions</span></div>
+<div style="position:absolute;left:17.71px;top:820.29px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-299px;top:9361px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background12.jpg" width=598 height=841></div>
+<div style="position:absolute;left:46.05px;top:56.13px" class="cls_046"><span class="cls_046">4. REORIENT (  BILITY TO REORIENT) - Recalibrating Own  pproach͙..</span></div>
+<div style="position:absolute;left:285.11px;top:71.00px" class="cls_046"><span class="cls_046">RATING</span></div>
+<div style="position:absolute;left:53.81px;top:87.56px" class="cls_045"><span class="cls_045">NOT DEMONSTRATED</span></div>
+<div style="position:absolute;left:162.53px;top:87.56px" class="cls_045"><span class="cls_045">EARLY AWARENESS</span></div>
+<div style="position:absolute;left:258.10px;top:87.56px" class="cls_045"><span class="cls_045">SELECTIVE APPLICATION</span></div>
+<div style="position:absolute;left:371.53px;top:87.56px" class="cls_045"><span class="cls_045">WELL-MANIFESTED</span></div>
+<div style="position:absolute;left:474.85px;top:87.56px" class="cls_045"><span class="cls_045">CLEAR STTRENGTH</span></div>
+<div style="position:absolute;left:87.24px;top:102.07px" class="cls_045"><span class="cls_045">(ND)</span></div>
+<div style="position:absolute;left:190.56px;top:102.07px" class="cls_045"><span class="cls_045">(EA)</span></div>
+<div style="position:absolute;left:295.23px;top:102.07px" class="cls_045"><span class="cls_045">(SA)</span></div>
+<div style="position:absolute;left:396.18px;top:102.07px" class="cls_045"><span class="cls_045">(WM)</span></div>
+<div style="position:absolute;left:502.55px;top:102.07px" class="cls_045"><span class="cls_045">(CS)</span></div>
+<div style="position:absolute;left:46.05px;top:129.08px" class="cls_047"><span class="cls_047">BEHAVIOURAL INPUTS</span></div>
+<div style="position:absolute;left:322.92px;top:150.37px" class="cls_046"><span class="cls_046">ND</span></div>
+<div style="position:absolute;left:375.24px;top:150.37px" class="cls_046"><span class="cls_046">EA</span></div>
+<div style="position:absolute;left:426.91px;top:150.37px" class="cls_046"><span class="cls_046">SA</span></div>
+<div style="position:absolute;left:474.17px;top:150.37px" class="cls_046"><span class="cls_046">WM</span></div>
+<div style="position:absolute;left:529.53px;top:150.37px" class="cls_046"><span class="cls_046">CS</span></div>
+<div style="position:absolute;left:46.05px;top:171.99px" class="cls_046"><span class="cls_046">Does not dwell too long when initial ideas are challenged</span></div>
+<div style="position:absolute;left:46.05px;top:186.50px" class="cls_046"><span class="cls_046">or rejected.</span></div>
+<div style="position:absolute;left:46.05px;top:208.45px" class="cls_046"><span class="cls_046">Excited about new inputs.</span></div>
+<div style="position:absolute;left:46.05px;top:237.50px" class="cls_046"><span class="cls_046">Sees contradictions as oppurtunities.</span></div>
+<div style="position:absolute;left:46.05px;top:269.26px" class="cls_046"><span class="cls_046">Is able to challenge own viewpoints in a discussion.</span></div>
+<div style="position:absolute;left:46.05px;top:302.35px" class="cls_046"><span class="cls_046">Recalibrating  own response is easy.</span></div>
+<div style="position:absolute;left:46.05px;top:327.68px" class="cls_046"><span class="cls_046">Sees opposing ideas in creative tension, as means to</span></div>
+<div style="position:absolute;left:46.05px;top:342.19px" class="cls_046"><span class="cls_046">greater customer centricity.</span></div>
+<div style="position:absolute;left:46.05px;top:360.77px" class="cls_046"><span class="cls_046">considers success in reorienting everything around</span></div>
+<div style="position:absolute;left:46.05px;top:375.31px" class="cls_046"><span class="cls_046">customers.</span></div>
+<div style="position:absolute;left:46.05px;top:391.50px" class="cls_046"><span class="cls_046">Easily leaves current approach if it is not yielding</span></div>
+<div style="position:absolute;left:46.05px;top:406.04px" class="cls_046"><span class="cls_046">positive results.</span></div>
+<div style="position:absolute;left:51.24px;top:467.73px" class="cls_014"><span class="cls_014">Key Reflections</span></div>
+<div style="position:absolute;left:51.24px;top:622.15px" class="cls_011"><span class="cls_011">Key Actions</span></div>
+<div style="position:absolute;left:17.71px;top:820.29px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-299px;top:10212px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background13.jpg" width=598 height=841></div>
+<div style="position:absolute;left:42.53px;top:62.57px" class="cls_049"><span class="cls_049">5. REIMAGINATION (ABILITY TO REIMAGINE) -  Reimagining Possibilities and 'End' Outcomes</span></div>
+<div style="position:absolute;left:282.69px;top:76.69px" class="cls_049"><span class="cls_049">RATING</span></div>
+<div style="position:absolute;left:49.90px;top:92.42px" class="cls_048"><span class="cls_048">NOT DEMONSTRATED</span></div>
+<div style="position:absolute;left:153.16px;top:92.42px" class="cls_048"><span class="cls_048">EARLY AWARENESS</span></div>
+<div style="position:absolute;left:258.98px;top:92.42px" class="cls_048"><span class="cls_048">SELECTIVE APPLIATION</span></div>
+<div style="position:absolute;left:377.62px;top:92.42px" class="cls_048"><span class="cls_048">WELL-MANIFESTED</span></div>
+<div style="position:absolute;left:475.75px;top:92.42px" class="cls_048"><span class="cls_048">CLEAR STTRENGTH</span></div>
+<div style="position:absolute;left:81.65px;top:106.20px" class="cls_048"><span class="cls_048">(ND)</span></div>
+<div style="position:absolute;left:179.78px;top:106.20px" class="cls_048"><span class="cls_048">(EA)</span></div>
+<div style="position:absolute;left:292.01px;top:106.20px" class="cls_048"><span class="cls_048">(SA)</span></div>
+<div style="position:absolute;left:401.03px;top:106.20px" class="cls_048"><span class="cls_048">(WM)</span></div>
+<div style="position:absolute;left:502.03px;top:106.20px" class="cls_048"><span class="cls_048">(CS)</span></div>
+<div style="position:absolute;left:250.97px;top:131.86px" class="cls_050"><span class="cls_050">BEHAVIOURAL INPUTS</span></div>
+<div style="position:absolute;left:331.45px;top:145.67px" class="cls_049"><span class="cls_049">ND</span></div>
+<div style="position:absolute;left:381.14px;top:145.67px" class="cls_049"><span class="cls_049">EA</span></div>
+<div style="position:absolute;left:430.20px;top:145.67px" class="cls_049"><span class="cls_049">SA</span></div>
+<div style="position:absolute;left:475.11px;top:145.67px" class="cls_049"><span class="cls_049">WM</span></div>
+<div style="position:absolute;left:527.69px;top:145.67px" class="cls_049"><span class="cls_049">CS</span></div>
+<div style="position:absolute;left:42.53px;top:158.83px" class="cls_049"><span class="cls_049">Begins with an end in mind and figures that out with the</span></div>
+<div style="position:absolute;left:42.53px;top:172.61px" class="cls_049"><span class="cls_049">stakeholders.</span></div>
+<div style="position:absolute;left:42.53px;top:186.73px" class="cls_049"><span class="cls_049">Is able to re-look different points of view and alters the End</span></div>
+<div style="position:absolute;left:42.53px;top:200.52px" class="cls_049"><span class="cls_049">Picture.</span></div>
+<div style="position:absolute;left:42.53px;top:214.96px" class="cls_049"><span class="cls_049">Playbacks understanding to stakeholders and gives them a</span></div>
+<div style="position:absolute;left:42.53px;top:228.77px" class="cls_049"><span class="cls_049">sense of validation.</span></div>
+<div style="position:absolute;left:42.53px;top:242.54px" class="cls_049"><span class="cls_049">Approaches a problem with a view to create a winning</span></div>
+<div style="position:absolute;left:42.53px;top:256.35px" class="cls_049"><span class="cls_049">proposition.</span></div>
+<div style="position:absolute;left:42.53px;top:271.73px" class="cls_049"><span class="cls_049">Scrapes an entire solution design if it does not fit with client's</span></div>
+<div style="position:absolute;left:42.53px;top:285.53px" class="cls_049"><span class="cls_049">needs.</span></div>
+<div style="position:absolute;left:42.53px;top:300.30px" class="cls_049"><span class="cls_049">Observes customers and users intimately to spot</span></div>
+<div style="position:absolute;left:42.53px;top:314.08px" class="cls_049"><span class="cls_049">unmet/unexpressed needs.</span></div>
+<div style="position:absolute;left:42.53px;top:329.17px" class="cls_049"><span class="cls_049">Practises structured reflections over own observations to re-</span></div>
+<div style="position:absolute;left:42.53px;top:342.95px" class="cls_049"><span class="cls_049">imagine outcomes.</span></div>
+<div style="position:absolute;left:42.53px;top:359.95px" class="cls_049"><span class="cls_049">Actively prototypes to challenge assumptions to come up with</span></div>
+<div style="position:absolute;left:42.53px;top:373.76px" class="cls_049"><span class="cls_049">an aspirational design.</span></div>
+<div style="position:absolute;left:47.83px;top:436.96px" class="cls_014"><span class="cls_014">Key Reflections</span></div>
+<div style="position:absolute;left:47.83px;top:598.19px" class="cls_014"><span class="cls_014">Key Actions</span></div>
+<div style="position:absolute;left:17.71px;top:820.29px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-299px;top:11063px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background14.jpg" width=598 height=841></div>
+<div style="position:absolute;left:45.24px;top:64.48px" class="cls_009"><span class="cls_009">Developmental Guidelines</span></div>
+<div style="position:absolute;left:45.24px;top:111.83px" class="cls_051"><span class="cls_051">With  regards  to  specific  dimensions  of  Empathy,  a  score  which  is  aligned  with    no</span></div>
+<div style="position:absolute;left:45.24px;top:128.63px" class="cls_051"><span class="cls_051">demonstration, early awareness and selective application is low.</span></div>
+<div style="position:absolute;left:45.24px;top:144.95px" class="cls_051"><span class="cls_051">YOU  may want you to practice some of the behaviors recommended below</span><span class="cls_005">:</span></div>
+<div style="position:absolute;left:211.22px;top:197.54px" class="cls_053"><span class="cls_053">What does a low score on this dimension really mean?</span></div>
+<div style="position:absolute;left:117.89px;top:201.50px" class="cls_023"><span class="cls_023">RELATABILITY</span></div>
+<div style="position:absolute;left:211.22px;top:221.78px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> Your ability to find similar thought patterns with other people is</span></div>
+<div style="position:absolute;left:224.66px;top:236.18px" class="cls_012"><span class="cls_012">relatively low.</span></div>
+<div style="position:absolute;left:211.22px;top:250.58px" class="cls_017"><span class="cls_017">•</span><span class="cls_013"> You find it difficult to understand others’ point of view.</span></div>
+<div style="position:absolute;left:211.22px;top:265.00px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> You find it difficult to relate to others’ emotional expressions.</span></div>
+<div style="position:absolute;left:212.52px;top:300.31px" class="cls_052"><span class="cls_052">What can you do to enhance your effectiveness on this dimension?</span></div>
+<div style="position:absolute;left:212.52px;top:324.81px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> Suspend Judgement.</span></div>
+<div style="position:absolute;left:212.52px;top:339.21px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> Appreciate where others are coming from.</span></div>
+<div style="position:absolute;left:212.52px;top:353.61px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> Make a conscious effort to find common interests.</span></div>
+<div style="position:absolute;left:211.22px;top:404.11px" class="cls_054"><span class="cls_054">What does a low score on this dimension really mean?</span></div>
+<div style="position:absolute;left:124.82px;top:410.56px" class="cls_023"><span class="cls_023">RESONANCE</span></div>
+<div style="position:absolute;left:211.22px;top:428.37px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> You have to have the last word at any cost.</span></div>
+<div style="position:absolute;left:211.22px;top:442.77px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> People’s pains are their own, you are not bothered by them.</span></div>
+<div style="position:absolute;left:211.22px;top:457.17px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> People do not share their opinions and thoughts with you.</span></div>
+<div style="position:absolute;left:211.22px;top:485.97px" class="cls_052"><span class="cls_052">What can you do to enhance your effectiveness on this dimension</span><span class="cls_018">?</span></div>
+<div style="position:absolute;left:211.22px;top:510.47px" class="cls_019"><span class="cls_019">•</span><span class="cls_012">  Be fully present and observant in conversations.</span></div>
+<div style="position:absolute;left:211.22px;top:524.87px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> Make an effort to park your own views to listen to others’ views.</span></div>
+<div style="position:absolute;left:211.22px;top:539.27px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> Ensure to acknowledge others’ pain points through words and</span></div>
+<div style="position:absolute;left:224.90px;top:553.67px" class="cls_012"><span class="cls_012">appropriate body language.</span></div>
+<div style="position:absolute;left:212.52px;top:617.13px" class="cls_054"><span class="cls_054">What does a low score on this dimension really mean?</span></div>
+<div style="position:absolute;left:121.66px;top:626.42px" class="cls_023"><span class="cls_023">REFRAMING</span></div>
+<div style="position:absolute;left:212.52px;top:641.39px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> You find it difficult to entertain two different points of view.</span></div>
+<div style="position:absolute;left:212.52px;top:655.79px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> You would rather ask a few questions and get into the solution</span></div>
+<div style="position:absolute;left:225.96px;top:670.19px" class="cls_012"><span class="cls_012">mode.</span></div>
+<div style="position:absolute;left:212.52px;top:684.59px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> You try to avoid conflicts arising out of difference of opinion.</span></div>
+<div style="position:absolute;left:212.52px;top:719.56px" class="cls_055"><span class="cls_055">What can you do to enhance your effectiveness on this dimension?</span></div>
+<div style="position:absolute;left:212.52px;top:744.04px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> There is an opportunity for you to entertain multiple perspectives.</span></div>
+<div style="position:absolute;left:212.52px;top:758.44px" class="cls_017"><span class="cls_017">•</span><span class="cls_013"> Make an active effort to resolve conflicts in your own mind first</span></div>
+<div style="position:absolute;left:225.96px;top:772.86px" class="cls_012"><span class="cls_012">before dealing with the stakeholders.</span></div>
+<div style="position:absolute;left:212.52px;top:787.26px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> Seek to understand, before being understood.</span></div>
+<div style="position:absolute;left:13.32px;top:819.06px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-299px;top:11914px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background15.jpg" width=598 height=841></div>
+<div style="position:absolute;left:48.07px;top:58.50px" class="cls_009"><span class="cls_009">Empathy index - Interpretation of  Individual Dimension Scores</span></div>
+<div style="position:absolute;left:209.74px;top:111.26px" class="cls_053"><span class="cls_053">What does a low score on this dimension really mean?</span></div>
+<div style="position:absolute;left:112.27px;top:115.51px" class="cls_056"><span class="cls_056">REORIENTATION</span></div>
+<div style="position:absolute;left:209.74px;top:135.50px" class="cls_017"><span class="cls_017">•</span><span class="cls_013"> You would rather do things the way you want even if it is not</span></div>
+<div style="position:absolute;left:223.18px;top:149.92px" class="cls_012"><span class="cls_012">yielding results.</span></div>
+<div style="position:absolute;left:209.74px;top:164.32px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> You get tensed up if you have to entertain conflicting thoughts.</span></div>
+<div style="position:absolute;left:209.74px;top:178.72px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> It is difficult for you to challenge your assumptions and change</span></div>
+<div style="position:absolute;left:223.18px;top:193.12px" class="cls_012"><span class="cls_012">your beliefs.</span></div>
+<div style="position:absolute;left:210.36px;top:219.98px" class="cls_052"><span class="cls_052">What can you do to enhance your effectiveness on this dimension?</span></div>
+<div style="position:absolute;left:210.36px;top:244.24px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> You need to recalibrate your responses if they do not land well</span></div>
+<div style="position:absolute;left:223.80px;top:258.64px" class="cls_012"><span class="cls_012">with customers.</span></div>
+<div style="position:absolute;left:210.36px;top:273.04px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> There is a need to temporarily suspend your beliefs to understand</span></div>
+<div style="position:absolute;left:223.80px;top:287.44px" class="cls_012"><span class="cls_012">customer’s beliefs.</span></div>
+<div style="position:absolute;left:210.36px;top:301.84px" class="cls_017"><span class="cls_017">•</span><span class="cls_013"> Evaluate your current approach in the light of results/outcomes.</span></div>
+<div style="position:absolute;left:213.34px;top:342.16px" class="cls_053"><span class="cls_053">What does a low score on this dimension really mean?</span></div>
+<div style="position:absolute;left:108.58px;top:348.14px" class="cls_023"><span class="cls_023">REIMAGINATION</span></div>
+<div style="position:absolute;left:213.34px;top:366.40px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> Your outlook towards problem solving is short-term.</span></div>
+<div style="position:absolute;left:213.34px;top:380.80px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> It is difficult for you to visualise what the end picture would look</span></div>
+<div style="position:absolute;left:226.78px;top:395.20px" class="cls_013"><span class="cls_013">like.</span></div>
+<div style="position:absolute;left:213.34px;top:409.62px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> Multiple iterations for you is a waste of time and resources, as it</span></div>
+<div style="position:absolute;left:226.78px;top:424.02px" class="cls_012"><span class="cls_012">may not fit customer’s needs.</span></div>
+<div style="position:absolute;left:214.34px;top:455.63px" class="cls_055"><span class="cls_055">What can you do to enhance your effectiveness on this dimension?</span></div>
+<div style="position:absolute;left:214.34px;top:479.87px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> Structured reflections over own  observations  from  customer’s</span></div>
+<div style="position:absolute;left:227.78px;top:494.27px" class="cls_012"><span class="cls_012">standpoints will help you form a holistic perspective.</span></div>
+<div style="position:absolute;left:214.34px;top:508.67px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> Visualising the end product and how it will serve the customer will</span></div>
+<div style="position:absolute;left:227.78px;top:523.08px" class="cls_013"><span class="cls_013">be useful to suspend own assumptions.</span></div>
+<div style="position:absolute;left:214.34px;top:537.50px" class="cls_019"><span class="cls_019">•</span><span class="cls_012"> Do not get wedded to your own ideas and constructs.</span></div>
+<div style="position:absolute;left:17.71px;top:820.29px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-299px;top:12765px;width:598px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="1b92349c-41f3-11eb-8b25-0cc47a792c0a_id_1b92349c-41f3-11eb-8b25-0cc47a792c0a_files/background16.jpg" width=598 height=841></div>
+<div style="position:absolute;left:254.06px;top:250.17px" class="cls_057"><span class="cls_057">Empathy is</span></div>
+<div style="position:absolute;left:186.60px;top:308.03px" class="cls_059"><span class="cls_059">Seeing with the eyes of others</span></div>
+<div style="position:absolute;left:177.72px;top:332.03px" class="cls_059"><span class="cls_059">Listening with the ears of others</span></div>
+<div style="position:absolute;left:180.36px;top:356.04px" class="cls_060"><span class="cls_060">Feeling with the heart of others</span></div>
+<div style="position:absolute;left:87.48px;top:378.93px" class="cls_005"><span class="cls_005">S</span></div>
+<div style="position:absolute;left:165.72px;top:404.06px" class="cls_059"><span class="cls_059">It is about Others and not about You</span></div>
+<div style="position:absolute;left:17.71px;top:820.29px" class="cls_008"><span class="cls_008">© 2020  Centre of Strategic Mindset, All Rights Reserved</span></div>
+</div>
+
+</body>
+</html>

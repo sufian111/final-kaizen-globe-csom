@@ -1,0 +1,26 @@
+.roundBox {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.bg1{
+  background-color: #FF0000;
+}
+
+.bg2{
+  background-color: #ED7D31;
+}
+
+.bg3{
+  background-color: #FFC000;
+}
+
+.bg4{
+  background-color: #92D050;
+}
+
+.bg5{
+  background-color: #00B0F0;
+}

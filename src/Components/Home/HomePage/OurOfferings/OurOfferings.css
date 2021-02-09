@@ -1,0 +1,25 @@
+.title {
+  font-family: "Graphik", Helvetica, sans-serif, Lucida Sans Unicode;
+  font-weight: 800;
+  line-height: 1.3;
+  color: #060405;
+}
+.title-waper {
+  line-height: 1.8;
+  color: #676767;
+  font-size: 1.1rem;
+  font-family: "Tiempos", Georgia, serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.paragraph {
+  line-height: 1.8;
+  color: #676767;
+  font-size: 1.1rem;
+  font-family: "Tiempos", Georgia, serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.offerBg {
+}

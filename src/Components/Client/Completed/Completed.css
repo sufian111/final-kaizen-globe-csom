@@ -1,0 +1,9 @@
+.completeAssessmentCard {
+  background-color: #800000;
+  color: white;
+  border-radius: 10px;
+}
+.downloadPdfBtn {
+  border: none;
+  color: black;
+}
