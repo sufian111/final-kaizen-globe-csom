@@ -120,55 +120,27 @@ const Scores = ({ id }) => {
                 </div>
               </div>
             </div>
-            <div className="row boxForEmpathy d-flex align-items-center">
+            <div  className="row boxForEmpathy d-flex align-items-center">
               <div className="col-md-3 textBg boxForEmpathyIndex">
                 <p>Absolute Score Scale</p>
               </div>
 
-              <div className="col-md-9">
-                <div className="row ml-1">
+              <div  className="col-md-9">
+                <div className="row ml-1 boxForEmpathyIndex">
                   <div style={style1}>
                     <h5 className="text-white"> {newTotalScore} </h5>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="row boxForEmpathy d-flex align-items-center">
-              <div className="col-md-3 textBg boxForEmpathyIndex">
-                <p>Percentage Score Scale</p>
-              </div>
-              <div className="col-md-9">
-                <div>
-                  <div className="row ml-1">
-                    <div className="col-md-2 text-center boxForEmpathyIndex">
-                      0
-                    </div>
-                    <div className="col-md-2 text-center boxForEmpathyIndex">
-                      20
-                    </div>
-                    <div className="col-md-2 text-center boxForEmpathyIndex">
-                      40
-                    </div>
-                    <div className="col-md-2 text-center boxForEmpathyIndex">
-                      60
-                    </div>
-                    <div className="col-md-2 text-center boxForEmpathyIndex">
-                      80
-                    </div>
-                    <div className="col-md-2 text-center boxForEmpathyIndex">
-                      100
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
             <div className="row boxForEmpathy d-flex align-items-center">
               <div className="col-md-3 textBg boxForEmpathyIndex">
                 <p>Percentage Earned Score</p>
               </div>
               <div className="col-md-9">
                 <div>
-                  <div className="row ml-1">
+                  <div className="row ml-1  boxForEmpathyIndex">
                     <div style={style2}>
                       <h5 className=" text-white">{newTotalScore / 2} %</h5>
                     </div>
