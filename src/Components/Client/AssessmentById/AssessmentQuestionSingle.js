@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { Link, useHistory, useParams } from "react-router-dom";
 import { UserContext } from "../../../App";
 import "./AssessmentQuestionSingle.css";
-import picture from "../../../Image/ability .jpg";
+import picture from "../../../Image/a.jpg";
 import { useRef } from "react";
 import StopWatch from "./StopWatch";
 

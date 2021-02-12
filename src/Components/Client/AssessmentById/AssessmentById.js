@@ -4,10 +4,8 @@ import { useState } from "react";
 
 import ClientNavSection from "../ClientNavSection/ClientNavSection";
 import AssessmentQuestionSingle from "./AssessmentQuestionSingle";
-
-import SingleQuestion from "./SingleQuestion/SingleQuestion";
 import StopWatch from "./StopWatch";
-import picture from "../../../Image/ability .jpg";
+import picture from "../../../Image/a.jpg";
 
 const AssessmentById = () => {
   /*timer function */
@@ -26,7 +24,7 @@ const AssessmentById = () => {
         </div>
         <AssessmentQuestionSingle></AssessmentQuestionSingle>
       </div>
-      {/* <SingleQuestion></SingleQuestion> */}
+      
     </>
   );
 };

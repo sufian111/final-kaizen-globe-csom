@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./TopHeader.css";
 import img from "../../../Image/Picture1.png";
-import logo from "../../../Image/Empathy 629942924-huge.jpg";
+import logo from "../../../Image/Empathy intro.jpg";
 import { UserContext } from "../../../App";
 
 const TopHeader = () => {
